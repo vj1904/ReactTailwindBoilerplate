@@ -10,7 +10,7 @@ export default function Welcome() {
     <div className="flex items-center md:w-4/5 mx-auto rounded-md my-8">
       {/* Left half */}
       <div className="flex-1 flex items-center justify-center pr-24">
-        <img src={Image} alt="Centered Image" className="md:h-96" />
+        <img src={Image} alt="Welcome" className="md:h-96" />
       </div>
 
       {/* Right half */}
