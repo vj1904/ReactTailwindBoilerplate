@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../img/img1.jpg";
+import Image from "../../img/img1.jpg";
 
 export default function Welcome() {
   return (
@@ -10,7 +10,7 @@ export default function Welcome() {
     <div className="flex items-center md:w-4/5 mx-auto rounded-md my-8">
       {/* Left half */}
       <div className="flex-1 flex items-center justify-center pr-24">
-        <img src={image} alt="Centered Image" className="md:h-96" />
+        <img src={Image} alt="Centered Image" className="md:h-96" />
       </div>
 
       {/* Right half */}
